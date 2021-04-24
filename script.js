@@ -92,11 +92,13 @@ as('styleForm', 'right', '0')
 
 root.append(ce('h1', null, 'title-h1', 'Oops! All JavaScript'))
 root.append(ce('hr'))
+root.append(ce('p', null, null, 'https://github.com/CharlesDesiderio/oops-all-js'))
 root.append(ce('h2', null, 'what-h2', 'What is this?'))
 root.append(ce('p', null, 'what-p', 'This is a perfectly normal website, except it was built in the most obnoxious way possible. Everything here is done entirely in JavaScript. The HTML elements, the CSS styling, the positioning is all 100% JS. Seriously, check out the page source. There\'s nothing in the body tag. The only thing I added was the script file.'))
 
 root.append(ce('h2', null, 'do-h2', 'So what can I do with it?'))
 root.append(ce('p', null, 'do-p', 'I mean, I dunno. You can use the forms on the right to create elements and style them. Or style any other elements on the page. You\'ll have to use the JavaScript identifiers for CSS styles when appropriate, so for example "background-color" won\'t work, you\'ll have to use "backgroundColor" instead.'))
 
-
+root.append(ce('h2', null, 'nodo-h2', 'So what can\'t I do with it?'))
+root.append(ce('p', null, 'nodo-p', 'As of right now, anything that needs more than IDs, class names and text isn\'t implemented. So anchor links and images can\'t be created since I have yet to add support for adding things like href and src. Oh, and no ability to delete or move elements yet, but that\'s on the list!'))
 
